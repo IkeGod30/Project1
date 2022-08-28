@@ -31,3 +31,38 @@ text-decoration: none;
     nav ul li a:hover {
     font-size: 2rem;
 }
+
+.hed {
+    
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+div.test {
+    //border: 2px solid grey;
+    background-color: lightgrey;
+    margin: 2px auto;
+    height: 300px;
+    width: 1099px;
+    
+}
+
+.imageAI {
+    border-radius: 10%;
+}
+
+.imageDA {
+    border-radius: 100%;
+}
+
+.imageBI {
+    border-radius: 10%;
+}
+
+.hed {
+    
+    margin: 30px;
+}
