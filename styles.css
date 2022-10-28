@@ -28,7 +28,7 @@ text-decoration: none;
     
 }
 
-    nav ul li a:hover {
+    .primaryNav a:hover {
     font-size: 2rem;
 }
 
@@ -67,7 +67,10 @@ div.test {
     margin: 30px;
 }
 
-.fut {
-    background-color: grey;
+.fut ul a {
+    //background-color: grey;
     margin: 10px;
+    color: black;
+    text-decoration: underline;
+    
 }
