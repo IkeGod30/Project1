@@ -89,3 +89,18 @@ div.test {
     width: 15%;
     height: 50px;
 }
+
+form {
+
+    margin: auto 0;
+}
+
+#inputText {
+    width: 70%;
+    height: 200px;
+}
+
+#inputEmail, #inputName {
+    width: 70%;
+}
+
