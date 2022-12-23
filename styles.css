@@ -1,0 +1,106 @@
+body {
+background-color: #fff;    
+
+}
+
+.primaryNav {
+    background-color: black;
+}
+
+nav ul {
+    text-align: center;
+    //background-color: #666;
+}
+
+nav ul li {
+    //list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a {
+    
+text-decoration: none;
+    font-size: 1.2rem;
+    //text-transform: uppercase;
+    color: white;
+    
+    
+}
+
+    .primaryNav a:hover {
+    font-size: 2rem;
+}
+
+.hed {
+    
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+div.test {
+    //border: 2px solid grey;
+    background-color: lightgrey;
+    margin: 2px auto;
+    height: 300px;
+    //width: 1099px;
+    
+}
+
+.imageAI {
+    border-radius: 10%;
+}
+
+.imageDA {
+    border-radius: 100%;
+}
+
+.imageBI {
+    border-radius: 10%;
+}
+
+.hed {
+    
+    margin: 30px;
+}
+
+.fut ul a {
+    //background-color: grey;
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.contact {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button button {
+    width: 15%;
+    height: 50px;
+}
+
+form {
+
+    margin: auto 0;
+}
+
+#inputText {
+    width: 70%;
+    height: 200px;
+}
+
+#inputEmail, #inputName {
+    width: 70%;
+}
+
