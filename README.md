@@ -1,3 +1,5 @@
 # Project1
-quickstartPro1
-Initial project for previous cohort
+
+## Initial project for previous cohort
+
+This was a simple business website 
