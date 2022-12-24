@@ -42,11 +42,11 @@ text-decoration: none;
 }
 
 div.test {
-    //border: 2px solid grey;
+    /* border: 2px solid grey; */
     background-color: lightgrey;
     margin: 2px auto;
     height: 300px;
-    //width: 1099px;
+    /* width: 1099px; */
     
 }
 
@@ -68,7 +68,7 @@ div.test {
 }
 
 .fut ul a {
-    //background-color: grey;
+    
     margin: 10px;
     color: black;
     text-decoration: underline;
@@ -104,3 +104,18 @@ form {
     width: 70%;
 }
 
+.inputs {
+border-radius: 15px;
+/* background-color: grey; */
+/* color: white; */
+}
+
+input[type=text], input[type=email], input[type=password], textarea[type=text] {
+    background-color: rgb(255, 165, 0);
+    /* box-sizing: border-box; */
+    color: black;
+}
+
+textarea {
+    resize: none;
+}
