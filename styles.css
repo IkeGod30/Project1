@@ -9,11 +9,11 @@ background-color: #fff;
 
 nav ul {
     text-align: center;
-    //background-color: #666;
+    /* background-color: #666; */
 }
 
 nav ul li {
-    //list-style-type: none;
+    /* list-style-type: none; */
     display: inline-block;
     margin: 20px;
 }
@@ -22,7 +22,7 @@ nav ul li a {
     
 text-decoration: none;
     font-size: 1.2rem;
-    //text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: white;
     
     
