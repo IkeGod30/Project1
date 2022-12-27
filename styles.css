@@ -126,3 +126,7 @@ input[type=text], input[type=email], input[type=password], textarea[type=text] {
 textarea {
     resize: none;
 }
+
+.cont {
+    display: none;
+}
