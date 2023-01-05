@@ -131,16 +131,13 @@ textarea {
    visibility: hidden;
 }
 
-/* footer nav {
+footer nav {
     
     background: #666;
     margin-top: 50px;
     
-} */
-/* footer nav ul li a {
-    color: white;
-    text-decoration: none;
-} */
+}
+
 
 nav.fut ul li a {
     color: white;
