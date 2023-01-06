@@ -31,7 +31,9 @@ text-decoration: none;
     .primaryNav a:hover {
     /* font-size: 2rem; */
     color: orangered;
+    text-transform: uppercase;
 }
+
 
 .hed {
     
