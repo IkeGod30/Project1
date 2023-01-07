@@ -67,13 +67,6 @@ div.test {
     margin: 30px;
 }
 
-.fut ul a {
-    
-    margin: 10px;
-    color: black;
-    text-decoration: underline;
-    
-}
 
 .contact {
     margin-top: 50px;
@@ -89,12 +82,9 @@ div.test {
 .button button {
     width: 15%;
     height: 50px;
-    /* background-color: rgb(255,165, 0); */
+    
     
 }
-/* .button2 {
-    background-color: rgb(255,165, 0);
-} */
 
 form {
 
@@ -112,13 +102,12 @@ form {
 
 .inputs {
 border-radius: 15px;
-/* background-color: grey; */
-/* color: white; */
+
 }
 
 input[type=text], input[type=email], input[type=password], textarea[type=text] {
     background-color: rgb(255, 255, 255);
-    /* box-sizing: border-box; */
+    
     color: black;
 }
 
