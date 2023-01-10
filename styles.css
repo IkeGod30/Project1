@@ -133,5 +133,8 @@ nav.fut ul li a {
 }
 
 .aboutHeading {
-    color: purple;
+    color: white;
+    background: orange;
+    width: 100%;
+    height: 100%;
 }
