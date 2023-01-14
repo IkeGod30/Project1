@@ -12,6 +12,7 @@ nav.primaryNav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
+    transition: all 0.7s ease-out;
 
 }
 nav ul {
@@ -23,11 +24,12 @@ nav ul li {
    
     display: inline-block;
     margin: 20px;
+    
 }
 
 
-.primaryNav a:hover {
-    color: orangered;
+.primaryNav a:hover, a:focus {
+    color: greenyellow;
     text-transform: uppercase;
 }
 
