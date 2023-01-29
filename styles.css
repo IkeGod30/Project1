@@ -6,13 +6,19 @@ background-color: #fff;
 
 .primaryNav {
     background-color: black;
+    /* padding: 5px; */
 }
+
+/* nav.primaryNav ul li {
+    padding: 20px;
+    } */
 
 nav.primaryNav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
     transition: all 0.7s ease-out;
+    padding: 5px;
 
 }
 nav ul {
@@ -24,13 +30,15 @@ nav ul li {
    
     display: inline-block;
     margin: 20px;
+    padding: 5px;
     
 }
 
 
 .primaryNav a:hover, a:focus {
-    color: greenyellow;
+    color: rgb(151, 245, 10);
     text-transform: uppercase;
+    padding: 20px;
 }
 
 
@@ -107,9 +115,15 @@ border-radius: 15px;
 }
 
 input[type=text], input[type=email], input[type=password], textarea[type=text] {
-    background-color: rgb(255, 255, 255);
-    
-    color: black;
+    background-color: skyblue;
+    /* color: white; */
+}
+
+
+
+#inputEmail {
+    color: white;
+    background: blue;
 }
 
 textarea {
