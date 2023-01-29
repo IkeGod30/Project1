@@ -119,7 +119,9 @@ input[type=text], input[type=email], input[type=password], textarea[type=text] {
     /* color: white; */
 }
 
-
+#inputEmail::placeholder {
+    color: whitesmoke;
+}
 
 #inputEmail {
     color: white;
