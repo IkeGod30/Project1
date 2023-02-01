@@ -126,7 +126,49 @@ input[type=text], input[type=email], input[type=password], textarea[type=text] {
 #inputEmail {
     color: white;
     background: blue;
+
 }
+
+/* #inputText::placeholder {
+    color: whitesmoke;
+}
+
+#inputText {
+    color: white;
+    background: blue;
+
+} */
+
+/* #inputName::placeholder {
+    color: whitesmoke;
+}
+
+#inputName {
+    color: white;
+    background: blue;
+
+} */
+
+/* #inputEmail, #inputName, #inputText::placeholder {
+    color: whitesmoke;
+    background: blue;
+} */
+
+/* #inputEmail, #inputName, #inputText::placeholder {
+    color: white;
+    background: blue;
+} */
+
+/* input.inputs::placeholder, textarea.inputs::placeholder {
+    color: whitesmoke;
+    background: blue;
+
+} */
+
+/* textarea.inputs::placeholder {
+    color: whitesmoke;
+    background: blue;
+} */
 
 textarea {
     resize: none;
