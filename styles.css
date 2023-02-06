@@ -119,15 +119,32 @@ input[type=text], input[type=email], input[type=password], textarea[type=text] {
     /* color: white; */
 }
 
-#inputEmail::placeholder {
+#inputEmail::placeholder, #inputName::placeholder, #inputText::placeholder {
     color: whitesmoke;
 }
 
-#inputEmail {
+#inputEmail, #inputName, #inputText {
     color: white;
     background: blue;
 
 }
+
+/* #inputName {
+    color: white;
+    background: blue;
+
+} */
+
+/* #inputText {
+    color: white;
+    background: blue;
+
+} */
+
+/* .inputColor {
+    color: white;
+    background: blue;
+} */
 
 /* #inputText::placeholder {
     color: whitesmoke;
@@ -180,20 +197,21 @@ textarea {
 
 footer nav {
     
-    background: #666;
+    /* background: #666; */
     margin-top: 50px;
     
 }
 
 
 nav.fut ul li a {
-    color: white;
-    text-decoration: none;
+    color: darkblue;
+    text-decoration: underline;
 }
 
 .aboutHeading {
     color: white;
-    background: orange;
+    /* background: orange; */
     width: 100%;
     height: 100%;
+    /* margin-top: 15px; */
 }
