@@ -228,5 +228,7 @@ label.inputs {visibility: hidden;}
 label.form-check-label {visibility: inherit;}
 form.cont {margin: auto 0; background: grey;}
 nav.primaryNav ul li a {font-size: 13px; padding: 0px;  transition: none;}
+/* div.btnAction{margin-bottom: 10px;} */
+button.button2 {margin-bottom: 10px;}
 }
     
