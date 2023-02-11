@@ -1,10 +1,12 @@
 body {
 background-color: #fff; 
 
+
 }
 
 .primaryNav {
     background-color: rgb(12, 12, 105);
+    
    }
 
 nav.primaryNav ul li a {
@@ -14,6 +16,7 @@ nav.primaryNav ul li a {
     transition: all 0.7s ease-out;
     padding: 5px;
     text-transform: uppercase;
+
 
 }
 nav ul {
@@ -26,14 +29,12 @@ nav ul li {
     padding: 5px;
     }
 
+ 
 nav.primaryNav a:hover, nav.primaryNav a:focus {
     color: rgb(151, 245, 10);
     padding: 20px;
 }
 
-span.separator {
-    color: white;
-}
 
 .hed {
     text-align: center;
@@ -110,6 +111,11 @@ ul.team {
 
 /* For Contact page */
 
+
+button.btnContact {
+    width: 40%;
+}
+
 .contact {
     margin-top: 50px;
     margin-left: 10px;
@@ -127,6 +133,11 @@ ul.team {
 
 form {
     margin: auto 0;
+ }
+
+
+label.inputs {
+    visibility: hidden;
 }
 
 #inputText {
@@ -176,18 +187,21 @@ nav.fut ul li a {
 }
 
 @media screen and (max-width: 480px) {
-button.btnContact {background: black; font-size: 12px; width: 40%; align-content: center;}
-/* label.inputs, input.inputs {font-size: 60%;} */
-
-/* label.inputs, input.inputs {width: 50%;}  */
-/* #inputEmail, #inputName {
-    width: 50%;
-} */
+button.btnContact {background: black; font-size: 12px; width: 40%; text-align: center;}
 label.inputs {visibility: hidden;}
 label.form-check-label {visibility: inherit;}
-/* form.cont {margin: auto 0; background: grey;} */
 nav.primaryNav ul li a {font-size: 13px; padding: 0px;  transition: none;}
-/* div.btnAction{margin-bottom: 10px;} */
 button.button2 {margin-bottom: 10px;}
+
 }
+    
+
+@media screen and (max-width: 1200px) {
+    button.btnContact {background: grey; font-size: 12px; align-content: center;}
+    label.inputs {visibility: hidden;}
+    label.form-check-label {visibility: inherit;}
+    nav.primaryNav ul li a {font-size: 13px; padding: 0px;  transition: none;}
+    button.button2 {margin-bottom: 10px;}
+}
+    
     

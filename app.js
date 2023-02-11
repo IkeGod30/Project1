@@ -6,6 +6,7 @@ var btnClass = document.querySelector('.button');
 
 function showContact() {
     contactForm.style.visibility = 'visible';
+    
 
 }
 
