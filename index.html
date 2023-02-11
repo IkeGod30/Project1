@@ -3,72 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zebra Consulting Home Page</title> 
+
+<!--Bootstrap CSS library-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<!-- Local CSS-->
+<!-- Project stylesheet-->
 <link rel="stylesheet" href="styles.css">
-<title>My Homepage</title>    
+   
 </head>
 
 <body>
      
 <nav class="primaryNav container">
     <ul>
-        <li><a href="index.html">Home</a></li> <span style="color: white;">|</span>
-        <li><a href="About.html">About Us</a></li> <span style="color: white;">|</span>
+        <li><a href="index.html">Home</a></li> <span class="separator">|</span>
+        <li><a href="About.html">About Us</a></li> <span class="separator">|</span>
         <li><a href="Contact.html">Contact Us</a></li>
     </ul>
   </nav>
          
- <section class="container">   
+ <section class="container cols">   
     <div class="row container">  
         <div class="col-md-4">
             <h3 class="hed">Artificial Intelligence</h3>
-                <img class="imageAI" src="images/a3.jpg" alt="Photo of Artificial intelligence" width="100%" height="200">
-          <br>
-          <br>
-            <p>
-              Artificial Intelligence is transforming the way business is done, by enabling more optimization and automation of processes that would otherwise cost several man hours and other resources to achieve. Our AI systems have given our clients powerful and sophisticated tools to simplify procedures for greater productivity and indeed innovation. 
-          </p>
-      </div>
+            <img class="imageBanner" src="images/a3.jpg" alt="Photo of Artificial intelligence">
+            <p>Artificial Intelligence is transforming the way business is done, by enabling more optimization and automation of processes that would otherwise cost several man hours and other resources to achieve. Our AI systems have given our clients powerful and sophisticated tools to simplify procedures for greater productivity and indeed innovation.</p>
+        </div>
       
-      <div class="col-md-4">
+        <div class="col-md-4">
           <h3 class="hed">Data Analytics</h3>
-              <img class="imageDA" src="images/DA.jfif" alt="Photo of Data Analytics" width="100%" height="200">
-
-          <br>
-          <br>
-          <p>
-            Raw data is in essence not useful to businesses. In fact, collecting, collating and managing data can quickly become an expensive routine for businesses. With AI, data can be transformed into projection models that enhance accurate and timely decision-making. The outcome is greater speed and accuracy which compensate considerably for normal human errors.     
-           </p>
-      </div>
+          <img class="imageDA" src="images/DA.jfif" alt="Photo of Data Analytics">
+          <p>Raw data is in essence not useful to businesses. In fact, collecting, collating and managing data can quickly become an expensive routine for businesses. With AI, data can be transformed into projection models that enhance accurate and timely decision-making. The outcome is greater speed and accuracy which compensate considerably for normal human errors.</p>
+        </div>
       
       <div class="col-md-4">
           <h3 class="hed">Business Intelligence</h3>
-             <img class="imageBI" src="images/bi.jfif" alt="Photo of Business Intelligence" width="100%" height="200">
-          <br>
-          <br>
-          <p>
-            Business-actionable information is at the core of our AI systems and the data it delivers. The quick transformation of otherwise meaningless data into meaningful business-relevant information is a promise kept to our clients who have benefitted immensely from the proprietary information that our solutions provide their business. 
-
-          </p>
+          <img class="imageBanner" src="images/bi.jfif" alt="Photo of Business Intelligence">
+          <p>Business-actionable information is at the core of our AI systems and the data it delivers. The quick transformation of otherwise meaningless data into meaningful business-relevant information is a promise kept to our clients who have benefitted immensely from the proprietary information that our solutions provide their business.</p>
       </div>
-       
-   </div>
-   </section>
+    </div>
+  </section>
      
 
   <div class="row test container">
     <div class="col-sm-12">
         <h1 class="middle">Testimonials</h1> 
         <blockquote><em>Our firm was struggling to break even until we procured the services of Zebra Consulting. Their solutions helped us decipher and solve our challenges</em></blockquote>
-        <p style="color: purple;">-Stacy Johns (COO, ABC Integrated)</p>
+        <p class="testimonials">-Stacy Johns (COO, ABC Integrated)</p>
         <blockquote><em>We kept recruting more and more people, thinking that our problem was manpower. Zebra came in with its process automation solution, and it turned out that that was the missing link</em></blockquote>
-        <p style="color: purple;">-Stela Okere (CFO, Mega Real Estate)</p>
+        <p class="testimonials">-Stela Okere (CFO, Mega Real Estate)</p>
         <blockquote><em>We were losing a  lot of clients to inexplicable service failures. Thanks to the quick intervention of Zebra, in a short while, we were able to start regaining the confidence of our customers with our renewed efficiency</em></blockquote>
-        <p style="color: purple;">-Michael Anthony (MD, DigiWorld)</p>
-      </div>
+        <p class="testimonials">-Michael Anthony (MD, DigiWorld)</p>
     </div>
+  </div>
 
 
  <footer class="container">
@@ -81,8 +69,10 @@
      </nav>
  </footer>
 
-  
+ <!--Bootstrap Js Library--> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!--Project Js-->
 <script src="app.js"></script>
 </body>  
     

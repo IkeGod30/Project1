@@ -1,17 +1,11 @@
 body {
 background-color: #fff; 
-/* font-family:Arial, Helvetica, sans-serif;  */
 
 }
 
 .primaryNav {
-    background-color: black;
-    /* padding: 5px; */
-}
-
-/* nav.primaryNav ul li {
-    padding: 20px;
-    } */
+    background-color: rgb(12, 12, 105);
+   }
 
 nav.primaryNav ul li a {
     text-decoration: none;
@@ -19,63 +13,102 @@ nav.primaryNav ul li a {
     color: white;
     transition: all 0.7s ease-out;
     padding: 5px;
+    text-transform: uppercase;
 
 }
 nav ul {
-    text-align: center;
-    
+    text-align: center;  
 }
 
 nav ul li {
-   
     display: inline-block;
     margin: 20px;
     padding: 5px;
-    
-}
+    }
 
-
-.primaryNav a:hover, a:focus {
+nav.primaryNav a:hover, nav.primaryNav a:focus {
     color: rgb(151, 245, 10);
-    text-transform: uppercase;
     padding: 20px;
 }
 
+span.separator {
+    color: white;
+}
 
 .hed {
-    
     text-align: center;
 }
 
 .middle {
-    text-align: center;
-    
+    text-align: center;  
+}
+
+section.cols {
+    margin-bottom: 30px;
 }
 
 div.test {
    background-color: lightgrey;
    margin: 2px auto;
     
-    
 }
 
-.imageAI {
+img.imageBanner {
     border-radius: 10%;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px; 
 }
 
 .imageDA {
     border-radius: 100%;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
 }
 
-.imageBI {
-    border-radius: 10%;
-}
 
 .hed {
-    
     margin: 30px;
 }
 
+p.testimonials {
+    color: purple;
+}
+
+
+/* For About page */
+
+section.abt {
+    background: rgb(43, 40, 40);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+h1.aboutHeading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+hr.divide {
+   border: solid; 
+}
+
+h3.abtHead{
+    text-align: center;
+    color: whitesmoke;
+}
+
+p.abtText {
+  padding: 5px;
+}
+
+ul.team {
+    justify-content: center;
+}
+
+
+/* For Contact page */
 
 .contact {
     margin-top: 50px;
@@ -84,19 +117,15 @@ div.test {
 
 .button {
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .button button {
     width: 15%;
-    height: 50px;
-    
-    
+    height: 50px;     
 }
 
 form {
-
     margin: auto 0;
 }
 
@@ -111,13 +140,7 @@ form {
 
 .inputs {
 border-radius: 15px;
-
 }
-
-/* input[type=text], input[type=email], input[type=password], textarea[type=text] {
-    background-color: skyblue;
-    
-} */
 
 #inputEmail::placeholder, #inputName::placeholder, #inputText::placeholder {
     color: whitesmoke;
@@ -126,66 +149,7 @@ border-radius: 15px;
 #inputEmail, #inputName, #inputText {
     color: white;
     background: blue;
-
 }
-
-/* #inputName {
-    color: white;
-    background: blue;
-
-} */
-
-/* #inputText {
-    color: white;
-    background: blue;
-
-} */
-
-/* .inputColor {
-    color: white;
-    background: blue;
-} */
-
-/* #inputText::placeholder {
-    color: whitesmoke;
-}
-
-#inputText {
-    color: white;
-    background: blue;
-
-} */
-
-/* #inputName::placeholder {
-    color: whitesmoke;
-}
-
-#inputName {
-    color: white;
-    background: blue;
-
-} */
-
-/* #inputEmail, #inputName, #inputText::placeholder {
-    color: whitesmoke;
-    background: blue;
-} */
-
-/* #inputEmail, #inputName, #inputText::placeholder {
-    color: white;
-    background: blue;
-} */
-
-/* input.inputs::placeholder, textarea.inputs::placeholder {
-    color: whitesmoke;
-    background: blue;
-
-} */
-
-/* textarea.inputs::placeholder {
-    color: whitesmoke;
-    background: blue;
-} */
 
 textarea {
     resize: none;
@@ -196,12 +160,8 @@ textarea {
 }
 
 footer nav {
-    
-    /* background: #666; */
     margin-top: 50px;
-    
-}
-
+   }
 
 nav.fut ul li a {
     color: darkblue;
@@ -210,10 +170,9 @@ nav.fut ul li a {
 
 .aboutHeading {
     color: whitesmoke;
-    /* background: orange; */
     width: 100%;
     height: 100%;
-    /* margin-top: 15px; */
+   
 }
 
 @media screen and (max-width: 480px) {
@@ -226,7 +185,7 @@ button.btnContact {background: black; font-size: 12px; width: 40%; align-content
 } */
 label.inputs {visibility: hidden;}
 label.form-check-label {visibility: inherit;}
-form.cont {margin: auto 0; background: grey;}
+/* form.cont {margin: auto 0; background: grey;} */
 nav.primaryNav ul li a {font-size: 13px; padding: 0px;  transition: none;}
 /* div.btnAction{margin-bottom: 10px;} */
 button.button2 {margin-bottom: 10px;}
