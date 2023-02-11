@@ -140,6 +140,10 @@ label.inputs {
     visibility: hidden;
 }
 
+label.checkText {
+    visibility: inherit;
+}
+
 #inputText {
     width: 70%;
     height: 200px;
