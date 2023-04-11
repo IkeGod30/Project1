@@ -158,12 +158,12 @@ border-radius: 15px;
 }
 
 #inputEmail::placeholder, #inputName::placeholder, #inputText::placeholder {
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 #inputEmail, #inputName, #inputText {
-    color: white;
-    background: blue;
+    color: green;
+    /* background: blue; */
 }
 
 textarea {
