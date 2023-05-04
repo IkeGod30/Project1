@@ -163,7 +163,6 @@ border-radius: 15px;
 
 #inputEmail, #inputName, #inputText {
     color: green;
-    /* background: blue; */
 }
 
 textarea {
@@ -207,5 +206,3 @@ button.button2 {margin-bottom: 10px;}
     nav.primaryNav ul li a {font-size: 13px; padding: 0px;  transition: none;}
     button.button2 {margin-bottom: 10px;}
 }
-    
-    
