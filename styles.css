@@ -9,7 +9,7 @@ background-color: #fff;
     
    }
 
-nav.primaryNav ul li a {
+.primaryNav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -30,7 +30,7 @@ nav ul li {
     }
 
  
-nav.primaryNav a:hover, nav.primaryNav a:focus {
+.primaryNav a:hover, .primaryNav a:focus {
     color: rgb(151, 245, 10);
     padding: 20px;
 }
@@ -48,13 +48,13 @@ section.cols {
     margin-bottom: 30px;
 }
 
-div.test {
+.test {
    background-color: lightgrey;
    margin: 2px auto;
     
 }
 
-img.imageBanner {
+.imageBanner {
     border-radius: 10%;
     width: 100%;
     height: 200px;
