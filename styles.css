@@ -157,9 +157,6 @@ label.checkText {
 border-radius: 15px;
 }
 
-#inputEmail::placeholder, #inputName::placeholder, #inputText::placeholder {
-    /* color: whitesmoke; */
-}
 
 #inputEmail, #inputName, #inputText {
     color: green;
